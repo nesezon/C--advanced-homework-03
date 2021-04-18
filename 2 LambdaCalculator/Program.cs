@@ -6,10 +6,10 @@ namespace LambdaCalculator {
 
     delegate double Operation(double x, double y);
 
-    static Operation Add = (x, y) => x + y;
-    static Operation Subtract = (x, y) => x - y;
-    static Operation Multiply = (x, y) => x * y;
-    static Operation Divide = (x, y) => x / y;
+    static readonly Operation Add = (x, y) => x + y;
+    static readonly Operation Subtract = (x, y) => x - y;
+    static readonly Operation Multiply = (x, y) => x * y;
+    static readonly Operation Divide = (x, y) => x / y;
 
     static void Main(string[] args) {
 
@@ -66,7 +66,7 @@ namespace LambdaCalculator {
     /// <param name="result">Результат преобразования в double.</param>
     /// <returns>Успешность операции (true/false)</returns>
     static bool DoubleParse(string source, out double result) {
-      result = default(double);
+      result = default;
       if (source == null) return false;
       if (!double.TryParse(source, out double t_prm_1)) {
         char sepdec = Convert.ToChar(CultureInfo.CurrentCulture.NumberFormat.NumberDecimalSeparator);
@@ -75,11 +75,11 @@ namespace LambdaCalculator {
         if (double.TryParse(source, NumberStyles.Float, fp, out double t_prm_2)) {
           result = t_prm_2;
           return true;
-        } else return false;
-      } else {
-        result = t_prm_1;
-        return true;
+        }
+        return false;
       }
+      result = t_prm_1;
+      return true;
     }
   }
 }
