@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2 LambdaCalculator", "2 Lam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3 ArithmeticMean2", "3 ArithmeticMean2\3 ArithmeticMean2.csproj", "{AA4ADF84-CC32-4692-BFF4-B79E0226521C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfStopwatch", "WpfStopwatch\WpfStopwatch.csproj", "{5E1A0873-171D-4EBB-8DC8-F00632782DC2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4 WpfStopwatch", "4 WpfStopwatch\4 WpfStopwatch.csproj", "{5E1A0873-171D-4EBB-8DC8-F00632782DC2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
