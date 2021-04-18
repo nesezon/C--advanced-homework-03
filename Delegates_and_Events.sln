@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2 LambdaCalculator", "2 Lam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3 ArithmeticMean2", "3 ArithmeticMean2\3 ArithmeticMean2.csproj", "{AA4ADF84-CC32-4692-BFF4-B79E0226521C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfStopwatch", "WpfStopwatch\WpfStopwatch.csproj", "{5E1A0873-171D-4EBB-8DC8-F00632782DC2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{AA4ADF84-CC32-4692-BFF4-B79E0226521C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA4ADF84-CC32-4692-BFF4-B79E0226521C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA4ADF84-CC32-4692-BFF4-B79E0226521C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E1A0873-171D-4EBB-8DC8-F00632782DC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E1A0873-171D-4EBB-8DC8-F00632782DC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E1A0873-171D-4EBB-8DC8-F00632782DC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E1A0873-171D-4EBB-8DC8-F00632782DC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
